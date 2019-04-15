@@ -25,8 +25,12 @@ input{
 .good{
     border-radius:5px;
     border:1px solid rgb(224, 193, 18);
+    width:37%;
+    margin-top:10px;
+    padding:5px;
 }
 .bad{
-    border-radius: 5px;
-    border-radius: 1px solid rgb(230, 42, 42);
+    color:red;
+    width:37%;
+    margin-top:10px;
 }
