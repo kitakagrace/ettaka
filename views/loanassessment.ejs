@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ettaka.com-Loan Asessment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/loanassessment.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="whole">
+        <% include ./partials/navbar.ejs %>
+        <div class="center">
+        <form action="/loanassessment" method="post">
+        <input name="compareSize" placeholder="Compare Plotsize (Acres)" type="number">
+        <br/>
+        <input name="comparePrice" placeholder="Compare Plotprice (USD)" type="number">
+        <br/>
+        <input name="subjectSize" placeholder="Subject Plotsize  (Acres)" type="number">
+        <br/>
+        <input type="submit">
+      </form>
+      <div class="results">
+       <p>With good financials</p>
+       <p><%= loanAmountGood %> US DOLLARS</p>
+       <p>With bad financials</p>
+       <p><%= loanAmountBad %> US DOLLARS</p>
+    </div>
+    </div>
+</div>
+</body>
+<% include ./partials/footer.ejs %>
+</html>

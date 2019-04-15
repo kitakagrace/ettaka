@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.whole{
+    margin-top:20px;
+}
+.center{
+    padding-top: 30px;
+    float:center;
+    clear:both;
+    margin-left:35%;
+}
+input{
+    width:250px;
+    margin-top:10px;
+    height:35px;
+    border:1px solid grey;
+    border-radius:5px;
+}
+.results{
+    margin-top:20px;
+}
