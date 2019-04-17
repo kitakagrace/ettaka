@@ -41,8 +41,8 @@ app.get('/loanassessment',(req,res) =>{
   let greeting = "Dear Customer";
   let loanAjustmentGood = marketValue * 0.45;
   let loanAdjustmentBad = marketValue * 0.27;
-  let loanAmountGood = Math.round(loanAjustmentGood) + 'dollars';
-  let loanAmountBad = Math.round(loanAdjustmentBad) +  'dollars';
+  let loanAmountGood = Math.round(loanAjustmentGood);
+  let loanAmountBad = Math.round(loanAdjustmentBad);
 
   
   res.render('loanassessment',{loanAmountGood,loanAmountBad});
