@@ -12,6 +12,15 @@
     clear:both;
     margin-left:35%;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    form {
+      margin-left:-150px;
+    }
+    .results{
+        margin-left:-150px;
+    }
+  }
 input{
     width:250px;
     margin-top:10px;
