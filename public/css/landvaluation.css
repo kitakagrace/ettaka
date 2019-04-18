@@ -16,10 +16,10 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     form {
-      margin-left:-150px;
+      margin-left:-100px;
     }
     .results{
-        margin-left:-150px;
+        margin-left:-100px;
     }
   }
 input{
