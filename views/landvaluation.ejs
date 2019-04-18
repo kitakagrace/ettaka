@@ -14,11 +14,11 @@
     <% include ./partials/navbar.ejs %>
   <div class="center">
   <form action="/landvaluation" method="post">
-    <input name="compareSize" placeholder="Compare Plotsize (Acres)" type="number">
+    <input name="compareSize" placeholder="Compare Plotsize (Acres)" type="text" required>
     <br/>
-    <input name="comparePrice" placeholder="Compare Plotprice (USD)" type="number">
+    <input name="comparePrice" placeholder="Compare Plotprice (USD)" type="text" required>
     <br/>
-    <input name="subjectSize" placeholder="Subject Plotsize  (Acres)" type="number">
+    <input name="subjectSize" placeholder="Subject Plotsize  (Acres)" type="text" required>
     <br/>
     <input type="submit">
   </form>
